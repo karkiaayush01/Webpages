@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(127,127,255);
+    color: #f5f6f6;
+    font-family: Tahoma;
+}
+
+h1,p{
+    text-align: center;
+    font-style: normal;
+}
+.desc{
+    font-style: italic;
+    margin-bottom: 30px;;
+}
+.button,.button2,.button3{
+    display: inline;
+    font-style: normal;
+    text-align: left;
+}
+.recommendation,.improvement{
+    text-align: left;
+    margin-bottom:10px;
+    font-size: 18px;
+    font-style: normal;
+}
+.tbox{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom:6px;
+    font-size: 18px;
+    font-style: normal;
+}
+h1{
+    margin-top: 50px;
+}
+label,input{
+    display:block;
+}
+label{
+    margin-bottom:20px;
+    font-size: 18px;
+}
+input{
+    margin-bottom: 15px;
+    height: 25px;
+    width: 100%;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+form{
+    background-color: rgba(27,27,50,0.7);
+    width: 80vw;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 10px auto;
+    padding: 40px 40px 50px 40px;
+}
+fieldset{
+    margin:0;
+    border: none;
+}
+select{
+    display: block;
+}
+input[type="radio"],input[type="checkbox"]{
+    display: inline;
+    margin:0;
+    height: auto;
+    width: auto;
+    margin-right: 10px;
+}
+.label1{
+    margin-bottom: 5px;
+}
+textarea{
+    display: block;
+    resize: none;
+    font-family: Tahoma;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+select{
+    height: 25px;
+    width: 100%;
+    min-height: 2.5em;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+input[type="submit"]{
+    height: 30px;
+    background-color: rgba(0,255,0,0.6);
+    border: none;
+    color: #f5f6f6;
+    cursor: pointer;
+}
